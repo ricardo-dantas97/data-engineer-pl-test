@@ -25,12 +25,17 @@ Para as análises, criei o arquivo `utils.py` com as funções para fazer o proc
 virtualenv .env  
 ```
 
-3. Instale as dependências
+3. Ative o ambiente virtual
+```bash
+source .env/bin/activate  
+```
+
+4. Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Execute o script
+5. Execute o script
 ```bash
 python main.py
 ```
