@@ -39,3 +39,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Observações
+Em algumas análises foi solicitado a informação de produto, porém, não tem esse dado no arquivo CSV, então tudo que era referente à produto, utilizei o dado de `item type`.
